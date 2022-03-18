@@ -1,0 +1,115 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+
+  width: 228px;
+  height: 190px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 3;
+  right: 40px;
+  top: 120px;
+  &.open {
+    display: none;
+  }
+  .filter-header {
+    display: flex;
+    justify-content: space-between;
+    p {
+      margin: 23px 0 0 42px;
+      font-family: "SF Pro Display", sans-serif;
+      color: #a5a5a5;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-left: 42px;
+    }
+    .closeicon {
+      cursor: pointer;
+      color: white;
+      margin: 23px 33px 0 0;
+    }
+  }
+  .line {
+    height: 1px;
+    background-color: #cbcbcb;
+    width: auto;
+    margin: 12px 35px 20px 35px;
+  }
+  .utility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .filter-state {
+      padding-left: 12px;
+      padding-right: 12.5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 37.5px;
+      border-radius: 10px;
+      width: 75%;
+      margin: 0 30px 12px 30px;
+      color: white;
+      background-color: #232323;
+      font-family: "SF Pro Display", sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      #state {
+        background-color: #232323;
+        border: none;
+        width: 100%;
+        color: white;
+        font-family: "SF Pro Display", sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+    .filter-city {
+      padding-left: 12px;
+      padding-right: 12.5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 37.5px;
+      border-radius: 10px;
+      width: 75%;
+      margin: 0 30px 12px 30px;
+      color: white;
+      background-color: #232323;
+      font-family: "SF Pro Display", sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      #city {
+        background-color: #232323;
+        border: none;
+        width: 100%;
+        color: white;
+        font-family: "SF Pro Display", sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+  }
+}

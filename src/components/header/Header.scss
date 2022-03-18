@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 31px 56px 30px 43px;
+  .left {
+    button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      margin-right: 40px;
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #d0cbcb;
+
+      &#active {
+        font-weight: 700;
+        border-bottom: 1px solid;
+        padding: 0 0 4px;
+        color: white;
+      }
+    }
+    .nearest {
+      font-weight: 700;
+    }
+  }
+  .right {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+      color: #f2f2f2;
+    }
+    .filter-text {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #f2f2f2;
+    }
+  }
+}

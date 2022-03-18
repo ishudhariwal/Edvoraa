@@ -1,0 +1,46 @@
+.navbar {
+  height: 84px;
+  width: 100vw;
+
+  background-color: #101010;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  .left {
+    margin-left: 43px;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 42.72px;
+    .name {
+      margin-right: 25px;
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+
+      color: #ffffff;
+    }
+    .image-container {
+      img {
+        border-radius: 22px;
+        width: 44px;
+        height: 44px;
+        transform: rotate(-0.36deg);
+      }
+    }
+  }
+}
